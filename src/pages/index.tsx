@@ -1,3 +1,4 @@
+import { TestContainer } from '@/components/container';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
@@ -50,6 +51,8 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <TestContainer />
       </main>
 
       <footer className={styles.footer}>
